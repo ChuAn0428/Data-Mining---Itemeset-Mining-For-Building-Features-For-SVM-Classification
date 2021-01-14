@@ -1,0 +1,245 @@
+a. Run the itemset mining algorithm with 20% support. How many frequent itemsets are there?
+402
+
+b. Write top 10 itemsets (in terms of highest support value).
+[(6,) 272]
+[(16,) 269]
+[(200,) 267]
+[(3,) 253]
+[(14,) 248]
+[(8,) 242]
+[(7,) 239]
+[(3, 200) 231]
+[(8, 200) 218]
+[(10,) 216]
+
+c. How many frequent itemsets have 100 as part of itemsets?
+75
+
+d. How many frequent itemsets have 200 as part of itemsets?
+94
+
+e. Write top 10 association rules (in terms of highest confidence value) where the rules head is 100.
+confidence value: 0.9680851063829787     association rule: (4, 10) → 100
+confidence value: 0.967032967032967     association rule: (4, 5, 16) → 100
+confidence value: 0.9666666666666667     association rule: (4, 10, 14) → 100
+confidence value: 0.9662921348314607     association rule: (4, 5, 14, 16) → 100
+confidence value: 0.9659090909090909     association rule: (4, 5, 10) → 100
+confidence value: 0.959349593495935     association rule: (12, 4, 13) → 100
+confidence value: 0.9591836734693877     association rule: (4, 16) → 100
+confidence value: 0.9586776859504132     association rule: (12, 4, 13, 5) → 100
+confidence value: 0.9583333333333334     association rule: (12, 4, 13, 14) → 100
+confidence value: 0.9583333333333334     association rule: (4, 14, 16) → 100
+
+f. How many rules with head 100 are there for which the confidence value is more than 75%? List them.
+confidence value: 0.9680851063829787     association rule: (4, 10) → 100
+confidence value: 0.967032967032967     association rule: (4, 5, 16) → 100
+confidence value: 0.9666666666666667     association rule: (4, 10, 14) → 100
+confidence value: 0.9662921348314607     association rule: (4, 5, 14, 16) → 100
+confidence value: 0.9659090909090909     association rule: (4, 5, 10) → 100
+confidence value: 0.959349593495935     association rule: (12, 4, 13) → 100
+confidence value: 0.9591836734693877     association rule: (4, 16) → 100
+confidence value: 0.9586776859504132     association rule: (12, 4, 13, 5) → 100
+confidence value: 0.9583333333333334     association rule: (12, 4, 13, 14) → 100
+confidence value: 0.9583333333333334     association rule: (4, 14, 16) → 100
+confidence value: 0.9576271186440678     association rule: (12, 4, 13, 5, 14) → 100
+confidence value: 0.9572649572649573     association rule: (12, 4, 13, 6) → 100
+confidence value: 0.9565217391304348     association rule: (12, 4, 13, 5, 6) → 100
+confidence value: 0.956140350877193     association rule: (12, 4, 13, 14, 6) → 100
+confidence value: 0.9553571428571429     association rule: (12, 4, 13, 5, 14, 6) → 100
+confidence value: 0.950354609929078     association rule: (12, 4) → 100
+confidence value: 0.9492753623188406     association rule: (12, 4, 5) → 100
+confidence value: 0.9485294117647058     association rule: (12, 4, 14) → 100
+confidence value: 0.9473684210526315     association rule: (12, 4, 5, 14) → 100
+confidence value: 0.9473684210526315     association rule: (12, 4, 6) → 100
+confidence value: 0.9461538461538461     association rule: (12, 4, 5, 6) → 100
+confidence value: 0.9453125     association rule: (12, 4, 14, 6) → 100
+confidence value: 0.944     association rule: (12, 4, 5, 14, 6) → 100
+confidence value: 0.9361702127659575     association rule: (4, 13, 5) → 100
+confidence value: 0.935251798561151     association rule: (4, 13, 14) → 100
+confidence value: 0.9338235294117647     association rule: (4, 13, 5, 14) → 100
+confidence value: 0.9323308270676691     association rule: (4, 13, 5, 6) → 100
+confidence value: 0.9310344827586207     association rule: (4, 13) → 100
+confidence value: 0.9307692307692308     association rule: (4, 13, 14, 6) → 100
+confidence value: 0.9296875     association rule: (4, 13, 5, 14, 6) → 100
+confidence value: 0.9285714285714286     association rule: (4, 5) → 100
+confidence value: 0.9264705882352942     association rule: (4, 13, 6) → 100
+confidence value: 0.925     association rule: (4, 5, 14) → 100
+confidence value: 0.9230769230769231     association rule: (4, 5, 6) → 100
+confidence value: 0.9226190476190477     association rule: (4, 14) → 100
+confidence value: 0.9209039548022598     association rule: (4,) → 100
+confidence value: 0.9205298013245033     association rule: (4, 14, 6) → 100
+confidence value: 0.918918918918919     association rule: (4, 5, 14, 6) → 100
+confidence value: 0.91875     association rule: (4, 6) → 100
+confidence value: 0.8854961832061069     association rule: (12, 13, 5) → 100
+confidence value: 0.8828125     association rule: (12, 13, 5, 14) → 100
+confidence value: 0.88     association rule: (12, 13, 5, 6) → 100
+confidence value: 0.8791946308724832     association rule: (12, 5) → 100
+confidence value: 0.8770491803278688     association rule: (12, 13, 5, 14, 6) → 100
+confidence value: 0.875     association rule: (12, 5, 14) → 100
+confidence value: 0.8723404255319149     association rule: (12, 5, 6) → 100
+confidence value: 0.8676470588235294     association rule: (12, 5, 14, 6) → 100
+confidence value: 0.8650793650793651     association rule: (12, 13, 14, 6) → 100
+confidence value: 0.8646616541353384     association rule: (12, 13, 14) → 100
+confidence value: 0.8620689655172413     association rule: (4, 2) → 100
+confidence value: 0.8561151079136691     association rule: (12, 13) → 100
+confidence value: 0.8560606060606061     association rule: (12, 13, 6) → 100
+confidence value: 0.8522727272727273     association rule: (12, 14, 16) → 100
+confidence value: 0.8175675675675675     association rule: (12, 14, 6) → 100
+confidence value: 0.8164556962025317     association rule: (12, 14) → 100
+confidence value: 0.8160919540229885     association rule: (12, 16, 6) → 100
+confidence value: 0.8131868131868132     association rule: (12, 10) → 100
+confidence value: 0.81     association rule: (5, 10, 14) → 100
+confidence value: 0.8045977011494253     association rule: (13, 5, 14, 16) → 100
+confidence value: 0.8020833333333334     association rule: (12, 16) → 100
+confidence value: 0.7987421383647799     association rule: (12, 6) → 100
+confidence value: 0.7981651376146789     association rule: (5, 14, 16) → 100
+confidence value: 0.7978723404255319     association rule: (5, 10, 14, 6) → 100
+confidence value: 0.7959183673469388     association rule: (5, 14, 16, 6) → 100
+confidence value: 0.794392523364486     association rule: (5, 10) → 100
+confidence value: 0.79     association rule: (5, 10, 6) → 100
+confidence value: 0.7894736842105263     association rule: (12,) → 100
+confidence value: 0.7839506172839507     association rule: (13, 5, 14) → 100
+confidence value: 0.782608695652174     association rule: (13, 5, 16) → 100
+confidence value: 0.7777777777777778     association rule: (13, 5, 14, 6) → 100
+confidence value: 0.7764705882352941     association rule: (13, 5) → 100
+confidence value: 0.775     association rule: (13, 5, 6) → 100
+confidence value: 0.7680412371134021     association rule: (5, 14) → 100
+confidence value: 0.7611111111111111     association rule: (5, 14, 6) → 100
+confidence value: 0.7547169811320755     association rule: (5, 16, 6) → 100
+confidence value: 0.7542372881355932     association rule: (5, 16) → 100
+Total: 76
+
+g. Write top 10 association rules (in terms of highest confidence value) where the rules head is 200.
+confidence value: 0.9901960784313726     association rule: (1, 9, 7, 8, 3) → 200
+confidence value: 0.9830508474576272     association rule: (15, 9, 7) → 200
+confidence value: 0.9826086956521739     association rule: (15, 9, 7, 8) → 200
+confidence value: 0.9818181818181818     association rule: (1, 9, 8, 3) → 200
+confidence value: 0.9814814814814815     association rule: (15, 9, 7, 3) → 200
+confidence value: 0.9811320754716981     association rule: (15, 9, 7, 8, 3) → 200
+confidence value: 0.9809523809523809     association rule: (1, 9, 7, 3) → 200
+confidence value: 0.9772727272727273     association rule: (11, 8, 3) → 200
+confidence value: 0.9769230769230769     association rule: (15, 9) → 200
+confidence value: 0.9761904761904762     association rule: (15, 9, 8) → 200
+
+h. How many rules with head 200 are there for which the confidence value is more than 75%? List them.
+confidence value: 0.9901960784313726     association rule: (1, 9, 7, 8, 3) → 200
+confidence value: 0.9830508474576272     association rule: (15, 9, 7) → 200
+confidence value: 0.9826086956521739     association rule: (15, 9, 7, 8) → 200
+confidence value: 0.9818181818181818     association rule: (1, 9, 8, 3) → 200
+confidence value: 0.9814814814814815     association rule: (15, 9, 7, 3) → 200
+confidence value: 0.9811320754716981     association rule: (15, 9, 7, 8, 3) → 200
+confidence value: 0.9809523809523809     association rule: (1, 9, 7, 3) → 200
+confidence value: 0.9772727272727273     association rule: (11, 8, 3) → 200
+confidence value: 0.9769230769230769     association rule: (15, 9) → 200
+confidence value: 0.9761904761904762     association rule: (15, 9, 8) → 200
+confidence value: 0.9745762711864406     association rule: (15, 9, 3) → 200
+confidence value: 0.9739130434782609     association rule: (15, 9, 8, 3) → 200
+confidence value: 0.9736842105263158     association rule: (1, 9, 3) → 200
+confidence value: 0.9724770642201835     association rule: (11, 3) → 200
+confidence value: 0.9719626168224299     association rule: (1, 9, 7, 8) → 200
+confidence value: 0.9690721649484536     association rule: (11, 8) → 200
+confidence value: 0.967741935483871     association rule: (9, 7, 8, 3) → 200
+confidence value: 0.967741935483871     association rule: (15, 7, 8, 3) → 200
+confidence value: 0.967391304347826     association rule: (15, 9, 16) → 200
+confidence value: 0.967391304347826     association rule: (15, 1, 3) → 200
+confidence value: 0.967032967032967     association rule: (15, 1, 8) → 200
+confidence value: 0.9662921348314607     association rule: (15, 9, 8, 16) → 200
+confidence value: 0.9655172413793104     association rule: (15, 1, 8, 3) → 200
+confidence value: 0.9655172413793104     association rule: (1, 9, 8) → 200
+confidence value: 0.9649122807017544     association rule: (9, 8, 3) → 200
+confidence value: 0.9637681159420289     association rule: (15, 8, 3) → 200
+confidence value: 0.9636363636363636     association rule: (1, 9, 7) → 200
+confidence value: 0.9629629629629629     association rule: (15, 7, 8) → 200
+confidence value: 0.9612403100775194     association rule: (15, 7, 3) → 200
+confidence value: 0.9602649006622517     association rule: (15, 8) → 200
+confidence value: 0.9591836734693877     association rule: (15, 1) → 200
+confidence value: 0.9586776859504132     association rule: (1, 9) → 200
+confidence value: 0.9565217391304348     association rule: (9, 7, 3) → 200
+confidence value: 0.9550561797752809     association rule: (2, 8, 3) → 200
+confidence value: 0.9541284403669725     association rule: (9, 7, 8, 3, 16) → 200
+confidence value: 0.9540229885057471     association rule: (15, 7, 3, 16) → 200
+confidence value: 0.9536423841059603     association rule: (15, 3) → 200
+confidence value: 0.9508196721311475     association rule: (1, 7, 8, 3) → 200
+confidence value: 0.9508196721311475     association rule: (9, 8, 3, 16) → 200
+confidence value: 0.95     association rule: (9, 3) → 200
+confidence value: 0.948905109489051     association rule: (1, 8, 3) → 200
+confidence value: 0.9479166666666666     association rule: (2, 8) → 200
+confidence value: 0.9479166666666666     association rule: (15, 8, 3, 16) → 200
+confidence value: 0.946236559139785     association rule: (15, 7, 8, 16) → 200
+confidence value: 0.9441860465116279     association rule: (8, 3) → 200
+confidence value: 0.9428571428571428     association rule: (15, 8, 16) → 200
+confidence value: 0.9425287356321839     association rule: (11, 7) → 200
+confidence value: 0.941747572815534     association rule: (15, 3, 16) → 200
+confidence value: 0.9411764705882353     association rule: (7, 8, 3) → 200
+confidence value: 0.9403973509933775     association rule: (1, 3) → 200
+confidence value: 0.9385964912280702     association rule: (9, 7, 3, 16) → 200
+confidence value: 0.9375     association rule: (1, 7, 3) → 200
+confidence value: 0.9364161849710982     association rule: (9, 7, 8) → 200
+confidence value: 0.9325842696629213     association rule: (1, 8, 3, 16) → 200
+confidence value: 0.9322916666666666     association rule: (9, 8) → 200
+confidence value: 0.9310344827586207     association rule: (15, 7) → 200
+confidence value: 0.9302325581395349     association rule: (1, 7, 8) → 200
+confidence value: 0.9302325581395349     association rule: (9, 3, 16) → 200
+confidence value: 0.9272727272727272     association rule: (2, 3) → 200
+confidence value: 0.9261744966442953     association rule: (8, 3, 16) → 200
+confidence value: 0.9246575342465754     association rule: (1, 8) → 200
+confidence value: 0.9224806201550387     association rule: (7, 8, 3, 16) → 200
+confidence value: 0.9195402298850575     association rule: (15,) → 200
+confidence value: 0.9191919191919192     association rule: (1, 3, 16) → 200
+confidence value: 0.9175824175824175     association rule: (9, 7) → 200
+confidence value: 0.9154228855721394     association rule: (7, 3) → 200
+confidence value: 0.9130434782608695     association rule: (3,) → 200
+confidence value: 0.9124087591240876     association rule: (9, 8, 16) → 200
+confidence value: 0.9120879120879121     association rule: (9, 10, 3) → 200
+confidence value: 0.9112903225806451     association rule: (9, 7, 8, 16) → 200
+confidence value: 0.9108910891089109     association rule: (15, 7, 16) → 200
+confidence value: 0.9090909090909091     association rule: (10, 8, 3) → 200
+confidence value: 0.9082125603864735     association rule: (9,) → 200
+confidence value: 0.907563025210084     association rule: (15, 16) → 200
+confidence value: 0.9052631578947369     association rule: (1, 8, 16) → 200
+confidence value: 0.9042553191489362     association rule: (10, 7, 8, 3) → 200
+confidence value: 0.9008264462809917     association rule: (8,) → 200
+confidence value: 0.9     association rule: (7, 8) → 200
+confidence value: 0.896551724137931     association rule: (9, 10, 7, 8) → 200
+confidence value: 0.8958333333333334     association rule: (9, 10, 8) → 200
+confidence value: 0.8928571428571429     association rule: (7, 3, 16) → 200
+confidence value: 0.8928571428571429     association rule: (1, 7) → 200
+confidence value: 0.8863636363636364     association rule: (9, 7, 16) → 200
+confidence value: 0.884393063583815     association rule: (3, 16) → 200
+confidence value: 0.8823529411764706     association rule: (10, 7, 3) → 200
+confidence value: 0.8783783783783784     association rule: (9, 16) → 200
+confidence value: 0.875     association rule: (8, 16) → 200
+confidence value: 0.8723404255319149     association rule: (9, 10, 7) → 200
+confidence value: 0.8707482993197279     association rule: (7, 8, 16) → 200
+confidence value: 0.8695652173913043     association rule: (1, 7, 16) → 200
+confidence value: 0.8682170542635659     association rule: (10, 3) → 200
+confidence value: 0.8645833333333334     association rule: (11, 16) → 200
+confidence value: 0.864     association rule: (10, 8) → 200
+confidence value: 0.8620689655172413     association rule: (2, 7) → 200
+confidence value: 0.86     association rule: (11,) → 200
+confidence value: 0.8584905660377359     association rule: (9, 10) → 200
+confidence value: 0.8532110091743119     association rule: (10, 7, 8) → 200
+confidence value: 0.8508771929824561     association rule: (3, 6) → 200
+confidence value: 0.8426966292134831     association rule: (11, 2) → 200
+confidence value: 0.8368200836820083     association rule: (7,) → 200
+confidence value: 0.8342245989304813     association rule: (1,) → 200
+confidence value: 0.8314606741573034     association rule: (9, 10, 16) → 200
+confidence value: 0.83     association rule: (10, 3, 16) → 200
+confidence value: 0.8297872340425532     association rule: (8, 6) → 200
+confidence value: 0.8282828282828283     association rule: (10, 8, 16) → 200
+confidence value: 0.8181818181818182     association rule: (1, 2) → 200
+confidence value: 0.8166666666666667     association rule: (1, 16) → 200
+confidence value: 0.7983870967741935     association rule: (10, 7) → 200
+confidence value: 0.7965116279069767     association rule: (7, 16) → 200
+confidence value: 0.7894736842105263     association rule: (11, 6) → 200
+Total: 110
+
+i. soft-margin SVM with linear kernel
+The best parameters:  {'C': 0.5}
+accurac: 1.0
+The best parameters:  {'C': 0.5}
+accurac: 1.0
+The best parameters:  {'C': 0.5}
+accurac: 1.0
+Average 3-fold classification accuracy(along with standard deviation): 1.0 (+/- 0.0 )
